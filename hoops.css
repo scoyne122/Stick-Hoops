@@ -1,0 +1,162 @@
+body {
+	text-align:center;
+	padding-top:1.2cm
+}
+
+canvas {
+	border:1px solid black;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+#menu {
+	position:absolute;
+	height:402px;
+	width:802px;
+	background-color:white;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	border:1px solid black;
+	background-image:url("menu.png");
+	background-size:100% 100% !important;
+	-moz-background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+}
+
+#start {
+	position:absolute;
+	bottom:15pt;
+}
+
+#start1 {
+	position:absolute;
+	bottom:55pt;
+}
+
+.start {
+	font-size:20pt;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:2em;
+	left:0;
+	right:0;
+	margin:auto;
+	width:150pt;
+}
+
+.start:hover {
+	cursor:pointer;
+	color:yellow;
+	font-size:30pt;
+	width:190pt;
+}
+
+#instructions {
+	position:absolute;
+	left:0;
+	right:0;
+	top:2.5cm;
+	font-size:15pt;
+	margin:auto;
+	cursor:pointer;
+}
+
+#gameCont {
+	position:relative;
+	width:800px;
+	margin:auto;
+}
+
+#pause {
+	position:absolute;
+	left:10pt;
+	top:5pt;
+	font-size:20pt;
+	cursor:pointer;
+}
+
+#pauseMenu {
+	display:none;
+	position:absolute;
+	width:100%;
+	height:400px;
+	background-color:rgba(10, 10, 10, 0.5);
+	line-height:2em;
+	font-size:15pt;
+	padding-top:10px;
+}
+
+.button {
+	width:50%;
+	background-color:blue;
+	color:white;
+	border-radius:10px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	cursor:pointer;
+	border:1pt solid black;
+}
+
+.button:hover {
+	background-color:purple;
+}
+
+#dunk {
+	display:none;
+	position:absolute;
+	margin-top:50px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	height:200px;
+	width:400px;
+}
+
+#mainSound {
+	margin-top:1cm;
+	font-size:15pt;
+	cursor:pointer;
+}
+
+#won {
+	display:none;
+	position:absolute;
+	width:400px;
+	height:200px;
+	background-color:black;
+	border:1px solid red;
+	border-radius:20pt;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top:100px;
+	text-align:center;
+	overflow-y:scroll;
+}
+
+.label {
+	font-size:2em;
+	color:red;
+}
+
+#endHome {
+	background-color:red;
+	color:white;
+	width:80%;
+	left:0;
+	right:0;
+	margin:auto;
+	border-radius:10pt;
+	line-height:1.6em;
+}
+
+#endHome:hover {
+	background-color:purple;
+	cursor:pointer;
+}

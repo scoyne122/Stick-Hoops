@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+	  <title>Hoops</title>
+    <link rel='stylesheet' type='text/css' href='hoops.css' media="screen">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	<script src="ready.js"></script>
+  </head>
+  <body>
+	<div id="gameCont">
+		<canvas id="canvas"></canvas>
+		<img src="dunk.png" id="dunk">
+		<div id="pause"><strong>||</strong></div>
+		<div id="won">
+			<div class="home" id="endHome">Main Menu</div>
+		</div>
+		<div id="menu">
+			<img src="logo.png" id="logo">
+			<p id="instructions">Instructions</p>
+			<p id="mainSound" on="true">Sound: On</p><br>
+			<p>Play To:</p><select id="max">
+				<option>Unlimited</option>
+			</select>
+			<p id="start1" class="start">Play 1 Player</p>
+			<p id="start" class="start">Play 2 Player</p>
+		</div>
+		<div id="pauseMenu">
+			<div class="button" id="resume">Resume</div>
+			<div class="button home" id="home">Main Menu</div>
+			<div class="button" id="restart">Restart</div>
+			<div class="button" on="true" id="sound">Sound: On</div>
+		</div>
+	</div>
+	<script src="player.js"></script>
+	<script src="hoops.js"></script>
+  </body>
+</html>
